@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="game">
-        <img id="stage" class="stage" src="stage.png">
-        <img id="duck" class="duck" src="duck.gif">
+        <img draggable = "false" id="stage" src="stage.png">
+        <img draggable = "false" id="duck" src="duck.gif">
+        <p id="score">score: 0</p>
+        <p id="miss2">miss: 0</p>
     </div>
     <script src="script.js"></script>
 </body>

@@ -5,24 +5,26 @@
 
 body{
     background-color: rgb(59, 156, 88);
+    font-family: 'Roboto', sans-serif;
 }
 
 #game {
-    top: 20px;
+    top: 40px;
     margin: auto;
     width: 800px;
     height: 400px;
     position: relative;
+    border: solid 4px black;
 }
 
-.stage {
+#stage {
     width: 800px;
     height: 400px;
     position: absolute;
 
 }
 
-.duck {
+#duck {
     transition: 1s;
     height: 100px;
     width: 100px;
@@ -30,4 +32,23 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+}
+
+#score {
+    position: relative;
+    border-right: solid 4px black;
+
+    
+}
+
+#miss2 {
+    position: relative;
+    border-bottom: solid 4px black;
+    border-right: solid 4px black;
+}
+
+p {
+    width: 80px;
+    background-color: lightgray;
+    font-size: 20px;
 }
